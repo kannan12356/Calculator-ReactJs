@@ -26,6 +26,12 @@ function Calculator() {
         }
     }
 
+    const dlt = ()=>{
+        var str = document.getElementById("result").value;
+        str = str.substr(0,str.length-1)
+        setInput(str);
+    }
+
     return (
         <div className="Calculator">
             <h1>Calculator</h1>
@@ -58,7 +64,7 @@ function Calculator() {
                     </div>
                     <div className="fifth-row">                    
                         <button className="clr" onClick={()=>setInput('')}>Clear</button>
-                        <button className="clr" onClick={()=>setInput(input.substr(0,input.length-1))}>Delete</button>
+                        <button className="clr" onClick={dlt}>Delete</button>
                     </div>
                 </div>
             </div>            
