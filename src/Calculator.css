@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    background-color: #fff;
+    height: 30px;
+}
+.box{
+    border: 1px solid black;
+    width: 340px;
+    height: 470px;
+    margin: auto;
+    background-color: silver;
+}
+
+.input-box{
+    width: 334px;
+    height: 70px;
+    background-color: #161616;
+    color: #fff;
+    font-size: 45px;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid silver;
+}
+
+.btn{
+    width: 85px;
+    padding: 30px;
+    border-color: #fff;
+    font-weight: bold;
+}
+
+.calc{
+    background-color: #ff9800;
+    border-color: #ff9800;
+}
