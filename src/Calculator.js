@@ -12,7 +12,7 @@ function Calculator() {
     const sum = (e)=>{
         let inputs = document.getElementById("result").value
 
-        var ans = '';
+        var ans = '';        
         try{
             ans = eval(inputs);
         } catch(err)
